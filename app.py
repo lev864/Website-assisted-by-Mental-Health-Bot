@@ -19,7 +19,7 @@ def chat():
 
     try:
         client = Groq(
-            api_key = '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',
+            api_key = 'API_KEY',
         )
         response = client.chat.completions.create(
             messages=[
